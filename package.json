@@ -1,0 +1,33 @@
+{
+  "name": "saucerswaplabs-farm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "npx builder test",
+    "coverage": "npx builder coverage",
+    "deploy": "truffle migrate"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "dotenv": "^8.2.0",
+    "truffle-flattener": "^1.4.4"
+  },
+  "devDependencies": {
+    "@hashgraph/sdk": "2.11.0-beta.1",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "bignumber.js": "^9.0.2",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.14",
+    "solc": "0.6.12",
+    "solidity-coverage": "^0.7.13",
+    "truffle-plugin-verify": "^0.4.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.7.3",
+    "web3": "^1.7.1"
+  }
+}
